@@ -16,6 +16,7 @@ public class BoardDao {
 	private final String password = "0000";
 
 	
+	
 	///테이블 : board . 기능 : 데이터 수정
 	public int updateBoard(Board board) {
 		int rowCount = 0;
